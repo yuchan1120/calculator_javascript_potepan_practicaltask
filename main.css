@@ -1,0 +1,36 @@
+.all{
+  margin: 40px;
+}
+
+.display{
+  width: 406px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.Stage{
+  margin-top: 2px;
+  display: flex;
+  gap: 2px;
+}
+
+.buttonSmall{
+  width: 100px;
+  padding: 5px;
+  font-size: large;
+}
+.buttonSmall:focus{
+  border: 2px solid blue;
+}
+
+.buttonLarge{
+  width: 202px;
+  padding: 5px;
+  font-size: large;
+}
+.buttonLarge:focus{
+  border: 2px solid blue;
+}
