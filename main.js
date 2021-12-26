@@ -62,6 +62,8 @@ function get_calc(btn) {
   else{
     if(document.dentaku.display.value == "0"){
     document.dentaku.display.value = btn.value;
+   }else if(document.dentaku.display.value == "00"){
+    document.dentaku.display.value = btn.value;
    }else{
     document.dentaku.display.value += btn.value;
    }
